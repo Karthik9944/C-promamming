@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int per;
+    printf("enter the percentage");
+    scanf("%d",&per);
+    if(per>=91 && per<=100)
+    {
+        printf("GRADE O");
+    }
+    else if (per>=81 && per<=90)
+        { 
+            printf("GRADE A");
+        }    
+    else if (per>=71 && per<=80)
+        { 
+            printf("GRADE B");
+        }
+        return 0;
+}    
